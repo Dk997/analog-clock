@@ -28,7 +28,7 @@ function setTime() {
     const date = time.getDate()
     const hours = time.getHours();
 
-    const hoursForClock = hours >= 13 ? hours % 12 : hours;   // ? it denotes  if and : denotes  else
+    const hoursForClock = hours >= 13 ? hours % 12 : hours;   // ? it denotes  if and : denotes cd else
     const minute = time.getMinutes();
     const seconds = time.getSeconds();
     const ampm = hours >= 12 ? 'PM' : 'AM'
